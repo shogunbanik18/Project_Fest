@@ -47,8 +47,12 @@ if(selected == 'Diabetes Prediction'):
    
     with col1:
        SkinThickness = st.text_input('Skin Thickness value')
-
-  
+   
+    with col2:
+       Insulin = st.text_input('Insulin Level')
+   
+    with col3:
+       BMI = st.text_input('BMI value')
    
     with col1:
        DiabetesPedigreeFunction = st.text_input('Diabetes Pedigree Function value')
